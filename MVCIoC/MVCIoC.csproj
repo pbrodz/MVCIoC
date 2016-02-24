@@ -125,6 +125,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\CustomControllerFactory.cs" />
     <Compile Include="Models\IProteinTrackingService.cs" />
     <Compile Include="Models\ProteinRepository.cs" />
     <Compile Include="Models\ProteinTrackingService.cs" />

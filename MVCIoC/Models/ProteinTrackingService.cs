@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace MVCIoC.Models
+﻿namespace MVCIoC.Models
 {
     public class ProteinTrackingService : IProteinTrackingService
     {
-        private ProteinRepository repository = new ProteinRepository();
+        //You would create a Repository (that hooks up to a database or whatever here) and use that
+        //private ProteinRepository repository = new ProteinRepository();
+
         public int Total { get; set; }
         public void AddProtein(int proteinGrams)
         {
